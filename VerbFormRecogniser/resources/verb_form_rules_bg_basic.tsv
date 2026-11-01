@@ -1,0 +1,123 @@
+етикет	шаблон	пример	честота
+Imperative+Perfect	нека (n,{-V,-U,-C}) (1,{да}) (5,{ли,се,си,P,да}) съм:Vr3s Vxso	нека (да) му го е дал	
+Aorist+Pass|Imperfect-Pluperfect+Pass	съм:Vd (5,{ли,се,си,P,да}) Vqo	бях писан / бях/беше ли му даден	
+Conditional	бих:Vr (5,{ли,се,си,P,да}) Vxo	бих ли му го дал	
+Conditional	бих:Vr (5,{ли,се,си,P,да}) Vw	бих ли му го дал	
+Future_Perfect	ще (5,{ли,се,си,P,да}) съм:Vr3s Vxs	още ли му го е дал ще му ли го е дал	
+Imperative+Present	нека (n,{-V,-U,-C}) (1,{да}) (5,{ли,се,си,P,да}) Vr	нека (да) му го дам	
+Imperative+Perfect+Neg	нека (n,{-V,-U,-C}) (1,{да}) не (5,{ли,се,си,P,да}) съм:Vr3s Vxso	нека (да) не му го е дал	
+Imperative+Perfect+Neg	недей (n,{-V,-U,-C}) (1,{да}) (5,{ли,се,си,P,да}) съм:Vr3s Vxso	нека (да) не му го е дал	
+Imperative+Perfect+Neg	нека (n,{-V,-U,-C}) (1,{да}) не съм:Vr1 (5,{ли,се,си,P,да}) Vxo	нека (да) не съм му го дал	
+Imperative+Perfect+Neg	нека (n,{-V,-U,-C}) (1,{да}) не съм:Vr2 (5,{ли,се,си,P,да}) Vxo	нека (да) не съм му го дал	
+Imperative+Perfect+Neg	нека (n,{-V,-U,-C}) (1,{да}) не съм:Vr3p (5,{ли,се,си,P,да}) Vxpo	нека (да) не съм му го дал	
+Imperative+Perfect+Neg	недей (n,{-V,-U,-C}) (1,{да}) съм:Vr1 (5,{ли,се,си,P,да}) Vxo	нека (да) не съм му го дал	
+Imperative+Perfect+Neg	недей (n,{-V,-U,-C}) (1,{да}) съм:Vr2 (5,{ли,се,си,P,да}) Vxo	нека (да) не съм му го дал	
+Imperative+Perfect+Neg	недей (n,{-V,-U,-C}) (1,{да}) съм:Vr3p (5,{ли,се,си,P,да}) Vxpo	нека (да) не съм му го дал	
+Imperative+Perfect	нека (n,{-V,-U,-C}) (1,{да}) съм:Vr3p (5,{ли,се,си,P,да}) Vxpo	нека (да) сa му го дали	
+Imperative+Perfect	нека (n,{-V,-U,-C}) (1,{да}) съм:Vr2 (5,{ли,се,си,P,да}) Vxo	нека (да) съм му го дал	
+Imperative+Present-Perfect+Pass	нека (n,{-V,-U,-C}) (1,{да}) (5,{ли,се,си,P,да}) бъда:Vr Vqo	нека да му бъда даден	
+Imperative+Present-Perfect+Pass	нека (n,{-V,-U,-C}) (1,{да}) (5,{ли,се,си,P,да}) съм:Vr3s Vqso	нека да му е даден	
+Imperative+Present-Perfect+Pass+Neg	нека (n,{-V,-U,-C}) (1,{да}) не (5,{ли,се,си,P,да}) съм:Vr3s Vqso	нека да не му е даден	
+Imperative+Present-Perfect+Pass	нека (n,{-V,-U,-C}) (1,{да}) съм:Vr1 (5,{ли,се,си,P,да}) Vqo	нека да съм му даден	
+Imperative+Present-Perfect+Pass	нека (n,{-V,-U,-C}) (1,{да}) съм:Vr2 (5,{ли,се,си,P,да}) Vqo	нека да съм му даден	
+Imperative+Present-Perfect+Pass	нека (n,{-V,-U,-C}) (1,{да}) съм:Vr3p (5,{ли,се,си,P,да}) Vqpo	нека да съм му даден	
+Future-Future_Perfect+Pass+Neg	няма:Vr3s (n,{-V,-U,-C}) да съм:Vr (5,{ли,се,си,P,да}) Vqo	няма ли да съм му даден	
+Future-Future_Perfect+Pass+Neg	нямам:Vr3s (n,{-V,-U,-C}) да съм:Vr (5,{ли,се,си,P,да}) Vqo	няма ли да съм му даден	
+Future_Perfect	ще съм:Vr (5,{ли,се,си,P,да}) Vxo	ще съм ли си му го дала	
+Imperative	V2I	отивай	
+Imperative+Neg	не V2I	не отивай	
+Present	Vr	дам	
+Present+Neg	не (5,{ли,се,си,P,да}) Vr	не му ли го даде	
+Present-Perfect+Pass	Vqo (1,{ли}) съм:Vr	даден ли съм	
+Present-Perfect+Pass	Vqso (5,{ли,се,си,P,да}) съм:Vr3s	даден ли му е	
+Present-Perfect+Pass	съм:Vr (5,{ли,се,си,P,да}) Vqo	съм ли му даден	
+Present-Perfect+Pass	бъда:Vr (5,{ли,се,си,P,да}) Vqo	бъда ли му даден	
+Present-Perfect+Pass	Vqo (5,{ли,се,си,P,да}) бъда:Vr	даден ли му бъде	
+Present-Perfect+Pass+Neg	не (5,{ли,се,си,P,да}) бъда:Vr Vqo	не му ли бъда даден	
+Present-Perfect+Pass+Neg	не бъда:Vr (5,{ли,се,си,P,да}) Vqo	не бъда ли му даден[b]	
+Perfect	съм:Vr (5,{ли,се,си,P,да}) Vxo	съм ли му го дал, е дал	
+Perfect	Vxo (1,{ли}) съм:Vr	дал ли съм му го	
+Perfect	Vxso (5,{ли,се,си,P,да}) съм:Vr3s	дал ли му го е	
+Perfect+Neg	не съм:Vr (5,{ли,се,си,P,да}) Vxo	не съм ли му го дал	
+Perfect+Neg	не (5,{ли,се,си,P,да}) съм:Vr3s Vxso	не му ли го е дал	
+Present-Perfect+Pass+Neg	не съм:Vr (5,{ли,се,си,P,да}) Vqo	не си ли му даден	
+Present-Perfect+Pass+Neg	не (5,{ли,се,си,P,да}) съм:Vr3s Vqso	не си ли му е даден	
+Imperfect	Vd	дадеше	
+Imperfect+Neg	не (5,{ли,се,си,P,да}) Vd	не си ли му го дадеше	
+Pluperfect	съм:Vd (5,{ли,се,си,P,да}) Vxo	бях/беше ли му го дал	
+Pluperfect	Vxo (5,{ли,се,си,P,да}) съм:Vd	дал ли му го бях/беше	
+Pluperfect+Neg	не съм:Vd (5,{ли,се,си,P,да}) Vxo	не бях ли му го дал	
+Pluperfect+Neg	не (5,{ли,се,си,P,да}) съм:Vd Vxo	не му ли го бях дал	
+Imperfect-Pluperfect+Pass	Vqso (5,{ли,се,си,P,да}) съм:Vd	даден ли му бях/беше	
+Imperfect-Pluperfect+Pass+Neg|Aorist+Pass+Neg	не съм:Vd (5,{ли,се,си,P,да}) Vqo	не бях ли си му даден / не беше ли си му даден	
+Imperfect-Pluperfect+Pass+Neg	не (5,{ли,се,си,P,да}) съм:Vd Vqo	не си ли му бях даден	
+Aorist	Ve	писах	
+Aorist+Pass	бивам:Ve (5,{ли,се,си,P,да}) Vqo	бидох писан	
+Aorist+Pass	бивам:Ve (5,{ли,се,си,P,да}) Aod	бидох писан	
+Aorist+Pass	съм:Vd (5,{ли,се,си,P,да}) Aod	бях писан	
+Aorist+Neg	не (5,{ли,се,си,P,да}) Ve	не си ли му го писах	
+Aorist+Pass+Neg	не бивам:Ve (5,{ли,се,си,P,да}) Vqo	не биде ли си му даден	
+Aorist+Pass+Neg	не бивам:Ve (5,{ли,се,си,P,да}) Aod	не биде ли си му даден	
+Aorist+Pass+Neg	не съм:Vd (5,{ли,се,си,P,да}) Aod	не беше ли си му даден	
+Future	ще (5,{ли,се,си,P,да}) Vr	ще ли му го дам	
+Future+Neg	няма:Vr3s (n,{-V,-U,-C}) да (5,{ли,се,си,P,да}) Vr	няма ли да му го дам	
+Future+Neg	нямам:Vr3s (n,{-V,-U,-C}) да (5,{ли,се,си,P,да}) Vr	няма ли да му го дам	
+Future_Perfect	ще (1,{ли}) съм:Vr (5,{ли,се,си,P,да}) Vxo	ще ли съм си му го дала	
+Future_Perfect	ще (5,{ли,се,си,P,да}) бъда:Vr (1,{ли}) Vxo	ще му го бъде ли дал	
+Future_Perfect+Neg	няма:Vr3s (n,{-V,-U,-C}) да съм:Vr (5,{ли,се,си,P,да}) Vxo	няма ли да съм му го дал	
+Future_Perfect+Neg	нямам:Vr3s (n,{-V,-U,-C}) да съм:Vr (5,{ли,се,си,P,да}) Vxo	няма ли да съм му го дал	
+Future_Perfect+Neg	няма:Vr3s (n,{-V,-U,-C}) да (5,{ли,се,си,P,да}) съм:Vr3s Vxo	няма ли да му го е дал	
+Future_Perfect+Neg	няма:Vr3s (n,{-V,-U,-C}) да (5,{ли,се,си,P,да}) бъда:Vr Vxo	няма ли да му го бъда дала	
+Future_Perfect+Neg	нямам:Vr3s (n,{-V,-U,-C}) да (5,{ли,се,си,P,да}) бъда:Vr Vxo	няма ли да му го бъда дала	
+Future_Perfect+Neg	няма:Vr3s (n,{-V,-U,-C}) да бъда:Vr (5,{ли,се,си,P,да}) Vxo	няма ли да бъда му го дала	
+Future-Future_Perfect+Pass	ще съм:Vr (4,{ли,P}) Vqo	ще съм ли му даден	
+Future-Future_Perfect+Pass	ще (1,{ли}) съм:Vr (5,{ли,се,си,P,да}) Vqo	ще ли съм му даден	
+Future-Future_Perfect+Pass	ще (5,{ли,се,си,P,да}) съм:Vr3s Vqo	ще му ли е даден	
+Future-Future_Perfect+Pass	ще (5,{ли,се,си,P,да}) бъда:Vr (5,{-C,-V,-U}) Vqo	ще му бъде ли даден	
+Future-Future_Perfect+Pass+Neg	няма:Vr3s (n,{-V,-U,-C}) да (5,{ли,се,си,P,да}) бъда:Vr Vqo	няма ли да му бъде даден	
+Future_in_the_Past	ща:Vd (n,{-V,-U,-C}) да (5,{ли,се,си,P,да}) Vr	щях ли да му го чета	
+Future_in_the_Past+Neg	нямам:Vd3s (n,{-V,-U,-C}) да (5,{ли,се,си,P,да}) Vr	нямаше ли да му го даде	
+Conditional	съм:Ve (5,{ли,се,си,P,да}) Vxo		
+Conditional	бия:Ve (5,{ли,се,си,P,да}) Vxo		
+Conditional	Vxo (5,{ли,се,си,P,да}) бих:Vr	дал ли му го бих	
+Conditional	Vxo (5,{ли,се,си,P,да}) съм:Ve		
+Conditional	Vxo (5,{ли,се,си,P,да}) бия:Ve		
+Conditional+Neg	не (5,{ли,се,си,P,да}) бих:Vr Vxo	не му ли го бих дал	
+Conditional+Neg	не (5,{ли,се,си,P,да}) съм:Ve Vxo		
+Conditional+Neg	не (5,{ли,се,си,P,да}) бия:Ve Vxo		
+Conditional+Neg	не бих:Vr (5,{ли,се,си,P,да}) Vxo	не бих ли му го дал	
+Conditional+Neg	не съм:Ve (5,{ли,се,си,P,да}) Vxo		
+Conditional+Neg	не бия:Ve (5,{ли,се,си,P,да}) Vxo		
+Conditional	съм:Ve (5,{ли,се,си,P,да}) Vw		
+Conditional	бия:Ve (5,{ли,се,си,P,да}) Vw		
+Conditional	Vw (5,{ли,се,си,P,да}) бих:Vr	дал ли му го бих	
+Conditional	Vw (5,{ли,се,си,P,да}) съм:Ve		
+Conditional	Vw (5,{ли,се,си,P,да}) бия:Ve		
+Conditional+Neg	не (5,{ли,се,си,P,да}) бих:Vr Vw	не му ли го бих дал	
+Conditional+Neg	не (5,{ли,се,си,P,да}) съм:Ve Vw		
+Conditional+Neg	не (5,{ли,се,си,P,да}) бия:Ve Vw		
+Conditional+Neg	не бих:Vr (5,{ли,се,си,P,да}) Vw	не бих ли му го дал	
+Conditional+Neg	не съм:Ve (5,{ли,се,си,P,да}) Vw		
+Conditional+Neg	не бия:Ve (5,{ли,се,си,P,да}) Vw		
+Imperative+Present+Neg	нека (n,{-V,-U,-C}) (1,{да}) не (5,{ли,се,си,P,да}) Vr	нека (да) не му го давам	
+Imperative+Present+Neg	недей (n,{-V,-U,-C}) (1,{да}) (5,{ли,се,си,P,да}) Vr	нека (да) не му го давам	
+Imperative+Present+Neg	недейте (n,{-V,-U,-C}) (1,{да}) (5,{ли,се,си,P,да}) Vr	нека (да) не му го давам	
+Imperative+Perfect	нека (n,{-V,-U,-C}) (1,{да}) съм:Vr1 (5,{ли,се,си,P,да}) Vxo	нека (да) съм му го дал	
+Imperative+Perfect+Neg	недейте (n,{-V,-U,-C}) (1,{да}) съм:Vr1 (5,{ли,се,си,P,да}) Vxo	нека (да) не съм му го дал	
+Imperative+Perfect+Neg	недейте (n,{-V,-U,-C}) (1,{да}) съм:Vr2 (5,{ли,се,си,P,да}) Vxo	нека (да) не съм му го дал	
+Imperative+Perfect+Neg	недейте (n,{-V,-U,-C}) (1,{да}) съм:Vr3p (5,{ли,се,си,P,да}) Vxpo	нека (да) не съм му го дал	
+Imperative+Perfect+Neg	недейте (n,{-V,-U,-C}) (1,{да}) (5,{ли,се,си,P,да}) съм:Vr3s Vxso	нека (да) не му го е дал	
+Imperative+Present-Perfect+Pass+Neg	нека (n,{-V,-U,-C}) (1,{да}) не съм:Vr1 (5,{ли,се,си,P,да}) Vqo	нека да не съм му даден	
+Imperative+Present-Perfect+Pass+Neg	нека (n,{-V,-U,-C}) (1,{да}) не съм:Vr2 (5,{ли,се,си,P,да}) Vqo	нека да не съм му даден	
+Imperative+Present-Perfect+Pass+Neg	нека (n,{-V,-U,-C}) (1,{да}) не съм:Vr3p (5,{ли,се,си,P,да}) Vqpo	нека да не съм му даден	
+Imperative+Present-Perfect+Pass+Neg	нека (n,{-V,-U,-C}) (1,{да}) не (5,{ли,се,си,P,да}) бъда:Vr Vqo	нека да не му бъда даден	
+Imperative+Present-Perfect+Pass+Neg	недей (n,{-V,-U,-C}) (1,{да}) съм:Vr1 (5,{ли,се,си,P,да}) Vqo	нека да не съм му даден	
+Imperative+Present-Perfect+Pass+Neg	недей (n,{-V,-U,-C}) (1,{да}) съм:Vr2 (5,{ли,се,си,P,да}) Vqo	нека да не съм му даден	
+Imperative+Present-Perfect+Pass+Neg	недей (n,{-V,-U,-C}) (1,{да}) съм:Vr3p (5,{ли,се,си,P,да}) Vqpo	нека да не съм му даден	
+Imperative+Present-Perfect+Pass+Neg	недей (n,{-V,-U,-C}) (1,{да}) (5,{ли,се,си,P,да}) съм:Vr3s Vqso	нека да не му е даден	
+Imperative+Present-Perfect+Pass+Neg	недей (n,{-V,-U,-C}) (1,{да}) (5,{ли,се,си,P,да}) бъда:Vr Vqo	нека да не му бъда даден	
+Imperative+Present-Perfect+Pass+Neg	недейте (n,{-V,-U,-C}) (1,{да}) съм:Vr1 (5,{ли,се,си,P,да}) Vqo	нека да не съм му даден	
+Imperative+Present-Perfect+Pass+Neg	недейте (n,{-V,-U,-C}) (1,{да}) съм:Vr2 (5,{ли,се,си,P,да}) Vqo	нека да не съм му даден	
+Imperative+Present-Perfect+Pass+Neg	недейте (n,{-V,-U,-C}) (1,{да}) съм:Vr3p (5,{ли,се,си,P,да}) Vqpo	нека да не съм му даден	
+Imperative+Present-Perfect+Pass+Neg	недейте (n,{-V,-U,-C}) (1,{да}) (5,{ли,се,си,P,да}) съм:Vr3s Vqso	нека да не му е даден	
+Imperative+Present-Perfect+Pass+Neg	недейте (n,{-V,-U,-C}) (1,{да}) (5,{ли,се,си,P,да}) бъда:Vr Vqo	нека да не му бъда даден	
