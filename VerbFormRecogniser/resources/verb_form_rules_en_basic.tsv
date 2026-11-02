@@ -1,0 +1,137 @@
+етикет	шаблон	пример	честота
+Infinitive	V	(to) go	
+Past_Participle	Vx		
+Present_Participle	Vy	Going, he smiled	
+Perfect_Participle	have:Vy Vx	Having gone	
+Present_Simple	Vr		
+Present_Simple	do:Vr (4,{-V,-U,-C}) V	I do go	
+Present_Simple+Pass	be:Vr (4,{-V,-U,-C}) Ve	Is prepared	
+Present_Simple+Pass	be:Vr (4,{-V,-U,-C}) Vx	Is prepared	
+Present_Simple+Neg	do:Vr not (4,{-V,-U,-C}) V	I don’t want	
+Present_Simple+Pass+Neg	be:Vr not (4,{-V,-U,-C}) Ve	Isn’t prepared	
+Present_Simple+Pass+Neg	be:Vr not (4,{-V,-U,-C}) Vx	Isn’t prepared	
+Present_Progressive	be:Vr (4,{-V,-U,-C}) Vy	Is preparing	
+Present_Progressive+Pass	be:Vr (4,{-V,-U,-C}) be:Vy Ve	Is being prepared	
+Present_Progressive+Pass	be:Vr (4,{-V,-U,-C}) be:Vy Vx	Is being prepared	
+Present_Progressive+Neg	be:Vr not (4,{-V,-U,-C}) Vy	Isn’t preparing	
+Present_Progressive+Pass+Neg	be:Vr not (4,{-V,-U,-C}) be:Vy Ve	Isn’t being prepared	
+Present_Progressive+Pass+Neg	be:Vr not (4,{-V,-U,-C}) be:Vy Vx	Isn’t being prepared	
+Present_Perfect	have:Vr (4,{-V,-U,-C}) Ve	has prepared	
+Present_Perfect	have:Vr (4,{-V,-U,-C}) Vx	has prepared	
+Present_Perfect+Pass	have:Vr (4,{-V,-U,-C}) be:Vx Ve	Has been prepared	
+Present_Perfect+Pass	have:Vr (4,{-V,-U,-C}) be:Vx Vx	Has been prepared	
+Present_Perfect+Neg	have:Vr not (4,{-V,-U,-C}) Ve	hasn’t prepared	
+Present_Perfect+Neg	have:Vr not (4,{-V,-U,-C}) Vx	hasn’t prepared	
+Present_Perfect+Pass+Neg	have:Vr not (4,{-V,-U,-C}) be:Vx Ve	Hasn’t been prepared	
+Present_Perfect+Pass+Neg	have:Vr not (4,{-V,-U,-C}) be:Vx Vx	Hasn’t been prepared	
+Present_Perfect_Progressive	have:Vr (4,{-V,-U,-C}) be:Vx Vy	He has never been doing that.	
+Present_Perfect_Progressive+Pass	have:Vr (4,{-V,-U,-C}) be:Vx be:Vy Ve	It has been being done.	
+Present_Perfect_Progressive+Pass	have:Vr (4,{-V,-U,-C}) be:Vx be:Vy Vx	It has been being done.	
+Present_Perfect_Progressive+Neg	have:Vr not (4,{-V,-U,-C}) be:Vx Vy	He has not been doing that.	
+Present_Perfect_Progressive+Pass+Neg	have:Vr not (4,{-V,-U,-C}) be:Vx be:Vy Ve	It has not been being done.	
+Present_Perfect_Progressive+Pass+Neg	have:Vr not (4,{-V,-U,-C}) be:Vx be:Vy Vx	It has not been being done.	
+Past_Simple	Ve	I went	
+Past_Simple	do:Ve (4,{-V,-U,-C}) V	I did go	
+Past_Simple+Pass	be:Ve (4,{-V,-U,-C}) Ve	was prepared	
+Past_Simple+Pass	be:Ve (4,{-V,-U,-C}) Vx	was prepared	
+Past_Simple+Neg	do:Ve not (4,{-V,-U,-C}) V	I didn’t go	
+Past_Simple+Pass+Neg	be:Ve not (4,{-V,-U,-C}) Ve	wasn’t prepared	
+Past_Simple+Pass+Neg	be:Ve not (4,{-V,-U,-C}) Vx	wasn’t prepared	
+Past_Progressive	be:Ve (4,{-V,-U,-C}) Vy	was preparing	
+Past_Progressive+Pass	be:Ve (4,{-V,-U,-C}) be:Vy Ve	was being prepared	
+Past_Progressive+Pass	be:Ve (4,{-V,-U,-C}) be:Vy Vx	was being prepared	
+Past_Progressive+Neg	be:Ve not (4,{-V,-U,-C}) Vy	was not preparing	
+Past_Progressive+Pass+Neg	be:Ve not (4,{-V,-U,-C}) be:Vy Ve	was not being prepared	
+Past_Progressive+Pass+Neg	be:Ve not (4,{-V,-U,-C}) be:Vy Vx	was not being prepared	
+Past_Perfect	have:Ve (4,{-V,-U,-C}) Ve	had prepared	
+Past_Perfect	have:Ve (4,{-V,-U,-C}) Vx	had prepared	
+Past_Perfect+Pass	have:Ve (4,{-V,-U,-C}) be:Vx Ve	had been prepared	
+Past_Perfect+Pass	have:Ve (4,{-V,-U,-C}) be:Vx Vx	had been prepared	
+Past_Perfect+Neg	have:Ve not (4,{-V,-U,-C}) Ve	had not prepared	
+Past_Perfect+Neg	have:Ve not (4,{-V,-U,-C}) Vx	had not prepared	
+Past_Perfect+Pass+Neg	have:Ve not (4,{-V,-U,-C}) be:Vx Ve	had not been prepared	
+Past_Perfect+Pass+Neg	have:Ve not (4,{-V,-U,-C}) be:Vx Vx	had not been prepared	
+Past_Perfect_Progressive	have:Ve (4,{-V,-U,-C}) be:Vx Vy	He had been doing that.	
+Past_Perfect_Progressive+Pass	have:Ve (4,{-V,-U,-C}) be:Vx be:Vy Ve	Had been being prepared	
+Past_Perfect_Progressive+Pass	have:Ve (4,{-V,-U,-C}) be:Vx be:Vy Vx	Had been being prepared	
+Past_Perfect_Progressive+Neg	have:Ve not (4,{-V,-U,-C}) be:Vx Vy	He had not been doing that.	
+Past_Perfect_Progressive+Pass+Neg	have:Ve not (4,{-V,-U,-C}) be:Vx be:Vy Ve	Had not been being prepared	
+Past_Perfect_Progressive+Pass+Neg	have:Ve not (4,{-V,-U,-C}) be:Vx be:Vy Vx	Had not been being prepared	
+Future_Simple	be:Vr (4,{-V,-U,-C}) going to V	is going to prepare	
+Future_Simple	shall:V (4,{-V,-U,-C}) V	shall prepare	
+Future_Simple	will:V (4,{-V,-U,-C}) V	Will prepare	
+Future_Simple+Pass	be:Vr (4,{-V,-U,-C}) going to be:V Ve	is going to be prepared	
+Future_Simple+Pass	be:Vr (4,{-V,-U,-C}) going to be:V Vx	is going to be prepared	
+Future_Simple+Pass	shall:V (4,{-V,-U,-C}) be:V Ve	Shall be prepared	
+Future_Simple+Pass	shall:V (4,{-V,-U,-C}) be:V Vx	Shall be prepared	
+Future_Simple+Pass	will:V (4,{-V,-U,-C}) be:V Ve	will be prepared	
+Future_Simple+Pass	will:V (4,{-V,-U,-C}) be:V Vx	will be prepared	
+Future_Simple+Neg	be:Vr not (4,{-V,-U,-C}) going to V	is not going to prepare	
+Future_Simple+Neg	shall:V not (4,{-V,-U,-C}) V	shall not prepare	
+Future_Simple+Neg	will:V not (4,{-V,-U,-C}) V	Will not prepare	
+Future_Simple+Pass+Neg	be:Vr not (4,{-V,-U,-C}) going to be:V Ve	is not going to be prepared	
+Future_Simple+Pass+Neg	be:Vr not (4,{-V,-U,-C}) going to be:V Vx	is not going to be prepared	
+Future_Simple+Pass+Neg	shall:V not (4,{-V,-U,-C}) be:V Ve	Shall not be prepared	
+Future_Simple+Pass+Neg	shall:V not (4,{-V,-U,-C}) be:V Vx	Shall not be prepared	
+Future_Simple+Pass+Neg	will:V not (4,{-V,-U,-C}) be:V Ve	will not be prepared	
+Future_Simple+Pass+Neg	will:V not (4,{-V,-U,-C}) be:V Vx	will not be prepared	
+Future_Progressive	shall:V (4,{-V,-U,-C}) be:V Vy	Shall be going	
+Future_Progressive	will:V (4,{-V,-U,-C}) be:V Vy	Will be going	
+Future_Progressive+Pass	shall:V (4,{-V,-U,-C}) be:V be:Vy Ve	Shall be being prepared	
+Future_Progressive+Pass	shall:V (4,{-V,-U,-C}) be:V be:Vy Vx	Shall be being prepared	
+Future_Progressive+Pass	will:V (4,{-V,-U,-C}) be:V be:Vy Ve	Will be being prepared	
+Future_Progressive+Pass	will:V (4,{-V,-U,-C}) be:V be:Vy Vx	Will be being prepared	
+Future_Progressive+Neg	shall:V not (4,{-V,-U,-C}) be:V Vy	Shall not be going	
+Future_Progressive+Neg	will:V not (4,{-V,-U,-C}) be:V Vy	Will not be going	
+Future_Progressive+Pass+Neg	shall:V not (4,{-V,-U,-C}) be:V be:Vy Ve	Shall not be being prepared	
+Future_Progressive+Pass+Neg	shall:V not (4,{-V,-U,-C}) be:V be:Vy Vx	Shall not be being prepared	
+Future_Progressive+Pass+Neg	will:V not (4,{-V,-U,-C}) be:V be:Vy Ve	Will not be being prepared	
+Future_Progressive+Pass+Neg	will:V not (4,{-V,-U,-C}) be:V be:Vy Vx	Will not be being prepared	
+Future_Perfect	shall:V (4,{-V,-U,-C}) have:V Ve	shall have done	
+Future_Perfect	shall:V (4,{-V,-U,-C}) have:V Vx	shall have done	
+Future_Perfect	will:V (4,{-V,-U,-C}) have:V Ve	will have done	
+Future_Perfect	will:V (4,{-V,-U,-C}) have:V Vx	will have done	
+Future_Perfect+Pass	shall:V (4,{-V,-U,-C}) have:V be:Vx Ve	shall have been done	
+Future_Perfect+Pass	shall:V (4,{-V,-U,-C}) have:V be:Vx Vx	shall have been done	
+Future_Perfect+Pass	will:V (4,{-V,-U,-C}) have:V be:Vx Ve	will have been done	
+Future_Perfect+Pass	will:V (4,{-V,-U,-C}) have:V be:Vx Vx	will have been done	
+Future_Perfect+Neg	shall:V not (4,{-V,-U,-C}) have:V Ve	shall not have done	
+Future_Perfect+Neg	shall:V not (4,{-V,-U,-C}) have:V Vx	shall not have done	
+Future_Perfect+Neg	will:V not (4,{-V,-U,-C}) have:V Ve	will not have done	
+Future_Perfect+Neg	will:V not (4,{-V,-U,-C}) have:V Vx	will not have done	
+Future_Perfect+Pass+Neg	shall:V not (4,{-V,-U,-C}) have:V be:Vx Ve	shall not have been done	
+Future_Perfect+Pass+Neg	shall:V not (4,{-V,-U,-C}) have:V be:Vx Vx	shall not have been done	
+Future_Perfect+Pass+Neg	will:V not (4,{-V,-U,-C}) have:V be:Vx Ve	will not have been done	
+Future_Perfect+Pass+Neg	will:V not (4,{-V,-U,-C}) have:V be:Vx Vx	will not have been done	
+Future_Perfect_Progressive	shall:V (4,{-V,-U,-C}) have:V be:Vx Vy	Shall have been going	
+Future_Perfect_Progressive	will:V (4,{-V,-U,-C}) have:V be:Vx Vy	Will have been going	
+Future_Perfect_Progressive+Pass	shall:V (4,{-V,-U,-C}) have:V be:Vx be:Vy Ve	shall have been being painted	
+Future_Perfect_Progressive+Pass	shall:V (4,{-V,-U,-C}) have:V be:Vx be:Vy Vx	shall have been being painted	
+Future_Perfect_Progressive+Pass	will:V (4,{-V,-U,-C}) have:V be:Vx be:Vy Ve	Will have been being painted	
+Future_Perfect_Progressive+Pass	will:V (4,{-V,-U,-C}) have:V be:Vx be:Vy Vx	Will have been being painted	
+Future_Perfect_Progressive+Neg	shall:V not (4,{-V,-U,-C}) have:V be:Vx Vy	Shall not have been going	
+Future_Perfect_Progressive+Neg	will:V not (4,{-V,-U,-C}) have:V be:Vx Vy	Will not have been going	
+Future_Perfect_Progressive+Pass+Neg	shall:V not (4,{-V,-U,-C}) have:V be:Vx be:Vy Ve	shall not have been being painted	
+Future_Perfect_Progressive+Pass+Neg	shall:V not (4,{-V,-U,-C}) have:V be:Vx be:Vy Vx	shall not have been being painted	
+Future_Perfect_Progressive+Pass+Neg	will:V not (4,{-V,-U,-C}) have:V be:Vx be:Vy Ve	Will not have been being painted	
+Future_Perfect_Progressive+Pass+Neg	will:V not (4,{-V,-U,-C}) have:V be:Vx be:Vy Vx	Will not have been being painted	
+Future_in_the_Past	be:Ve (4,{-V,-U,-C}) going to V	was going to prepare	
+Future_in_the_Past|Conditional	would:V (4,{-V,-U,-C}) V	Would come	
+Future_in_the_Past+Pass	be:Ve (4,{-V,-U,-C}) going to be:V Ve	was going to be prepared	
+Future_in_the_Past+Pass	be:Ve (4,{-V,-U,-C}) going to be:V Vx	was going to be prepared	
+Future_in_the_Past+Pass|Conditional+Pass	would:V (4,{-V,-U,-C}) be:V Ve	Would be prepared	
+Future_in_the_Past+Pass|Conditional+Pass	would:V (4,{-V,-U,-C}) be:V Vx	Would be prepared	
+Future_in_the_Past+Neg	be:Ve not (4,{-V,-U,-C}) going to V	was not going to prepare	
+Future_in_the_Past+Neg|Conditional+Neg	would:V not (4,{-V,-U,-C}) V	Would not come	
+Future_in_the_Past+Pass+Neg	be:Ve not (4,{-V,-U,-C}) going to be:V Ve	was not going to be prepared	
+Future_in_the_Past+Pass+Neg	be:Ve not (4,{-V,-U,-C}) going to be:V Vx	was not going to be prepared	
+Future_in_the_Past+Pass+Neg|Conditional+Pass+Neg	would:V not (4,{-V,-U,-C}) be:V Ve	Would not be prepared	
+Future_in_the_Past+Pass+Neg|Conditional+Pass+Neg	would:V not (4,{-V,-U,-C}) be:V Vx	Would not be prepared	
+Future_Perfect_in_the_Past|Conditional_Perfect	would:V (4,{-V,-U,-C}) have:V Ve	Would have made	
+Future_Perfect_in_the_Past|Conditional_Perfect	would:V (4,{-V,-U,-C}) have:V Vx	Would have made	
+Future_Perfect_in_the_Past+Pass|Conditional_Perfect+Pass	would:V (4,{-V,-U,-C}) have:V be:Vx Ve	Would have been made	
+Future_Perfect_in_the_Past+Pass|Conditional_Perfect+Pass	would:V (4,{-V,-U,-C}) have:V be:Vx Vx	Would have been made	
+Future_Perfect_in_the_Past+Neg|Conditional_Perfect+Neg	would:V not (4,{-V,-U,-C}) have:V Ve	Would not have made	
+Future_Perfect_in_the_Past+Neg|Conditional_Perfect+Neg	would:V not (4,{-V,-U,-C}) have:V Vx	Would not have made	
+Future_Perfect_in_the_Past+Pass+Neg|Conditional_Perfect+Pass+Neg	would:V not (4,{-V,-U,-C}) have:V be:Vx Ve	Would not have been made	
+Future_Perfect_in_the_Past+Pass+Neg|Conditional_Perfect+Pass+Neg	would:V not (4,{-V,-U,-C}) have:V be:Vx Vx	Would not have been made	
