@@ -12,10 +12,10 @@ Rule-based tools for the annotation of Bulgarian (and partly English) texts on t
 
 | Tool | Version | Languages | Adds column(s) | What it does |
 |---|---|---|---|---|
-| **VerbFormTagger** | 1.0 | bg, en | `DCL:VERBFORM` | Recognises simple and analytic (incl. discontinuous) verb forms and labels grammatical features of the full form |
-| **ClauseSplitter** | 2.0 | bg, en | `DCL:CLAUSE` | Splits complex sentences into clauses |
-| **NounPhraseRecogniser** | 1.0 | bg | `DCL:NP` | Recognises indefinite and definite noun phrases and adjective phrases |
-| **AnaphoraResolver** | 1.0 | bg | `DCL:ANAPHORA`, `DCL:COREF` | Recognises missing subjects (Pro-drop, Impersonal, generic and indefinite personal), resolves pronominal anaphora and builds coreference chains |
+| **VerbFormTagger** | 1.0 | bg, en | `VERBFORM` | Recognises simple and analytic (incl. discontinuous) verb forms and labels grammatical features of the full form |
+| **ClauseSplitter** | 2.0 | bg, en | `CLAUSE` | Splits complex sentences into clauses |
+| **NounPhraseRecogniser** | 1.0 | bg | `NP` | Recognises indefinite and definite noun phrases and adjective phrases |
+| **AnaphoraResolver** | 1.0 | bg | `ANAPHORA`, `COREF` | Recognises missing subjects (Pro-drop, Impersonal, generic and indefinite personal), resolves pronominal anaphora and builds coreference chains |
 
 ClauseSplitter 2.0 replaces [ClauseSplitter 1.0 (2017)](https://dcl.bas.bg/tools_list/clausesplitter-tool-for-identification-of-clauses-within-the-sentence/).
 
@@ -128,10 +128,10 @@ The UDPipe 2 models used to produce the input are distributed under CC BY-NC-SA 
 
 | Инструмент | Версия | Езици | Добавя колона | Предназначение |
 |---|---|---|---|---|
-| **VerbFormTagger** | 1.0 | bg, en | `DCL:VERBFORM` | Разпознава простите и аналитичните (вкл. прекъснатите) глаголни форми и определя граматическите характеристики на цялата форма |
-| **ClauseSplitter** | 2.0 | bg, en | `DCL:CLAUSE` | Разделя сложното изречение на прости изречения |
-| **NounPhraseRecogniser** | 1.0 | bg | `DCL:NP` | Разпознава нечленувани и членувани именни фрази и прилагателни фрази |
-| **AnaphoraResolver** | 1.0 | bg | `DCL:ANAPHORA`, `DCL:COREF` | Разпознава изпуснатия подлог (Pro-drop, Impersonal, обобщено-личен, неопределено-личен), намира референта на местоименните анафори и изгражда кореферентни вериги |
+| **VerbFormTagger** | 1.0 | bg, en | `VERBFORM` | Разпознава простите и аналитичните (вкл. прекъснатите) глаголни форми и определя граматическите характеристики на цялата форма |
+| **ClauseSplitter** | 2.0 | bg, en | `CLAUSE` | Разделя сложното изречение на прости изречения |
+| **NounPhraseRecogniser** | 1.0 | bg | `NP` | Разпознава нечленувани и членувани именни фрази и прилагателни фрази |
+| **AnaphoraResolver** | 1.0 | bg | `ANAPHORA`, `COREF` | Разпознава изпуснатия подлог (Pro-drop, Impersonal, обобщено-личен, неопределено-личен), намира референта на местоименните анафори и изгражда кореферентни вериги |
 
 ClauseSplitter 2.0 заменя [ClauseSplitter 1.0 (2017)](https://dcl.bas.bg/tools_list/clausesplitter-tool-for-identification-of-clauses-within-the-sentence/).
 
