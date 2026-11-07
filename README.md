@@ -113,12 +113,10 @@ All resources are tab-separated UTF-8 files with a header line.
 
 IDs are unique within each output file. See each tool's README for details.
 
-### Authors
+ 
+Department of Computational Linguistics, Institute for Bulgarian Language, Bulgarian Academy of Sciences
 
-Department of Computational Linguistics, Institute for Bulgarian Language "Prof. Lyubomir Andreychin", Bulgarian Academy of Sciences
-
-- Ivelina Stoyanova – iva@dcl.bas.bg
-- Svetlozara Leseva – zarka@dcl.bas.bg
+ 
 
 The UDPipe 2 models used to produce the input are distributed under CC BY-NC-SA 4.0.
 
@@ -230,12 +228,9 @@ java -jar AnaphoraResolver/AnaphoraResolver.jar         -i text_np.conllup  -o t
 | `DCL:COREF` | `E1` на всеки член на кореферентна верига 1 | `_` |
 
 Идентификаторите са уникални в рамките на всеки изходен файл. Подробности има в README файловете на отделните инструменти.
-
-### Автори
+ 
 
 Секция по компютърна лингвистика, Институт за български език „Проф. Любомир Андрейчин“, Българска академия на науките
-
-- Ивелина Стоянова – iva@dcl.bas.bg
-- Светлозара Лесева – zarka@dcl.bas.bg
+ 
 
 Моделите на UDPipe 2, с които се получава входът, се разпространяват с лиценз CC BY-NC-SA 4.0.
