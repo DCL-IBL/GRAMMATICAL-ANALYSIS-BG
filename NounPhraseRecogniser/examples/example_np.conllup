@@ -1,0 +1,135 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC DCL:NP
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = bulgarian-btb-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Новата ми червена кола е в гаража.
+1	Новата	нов	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	P1:NPD;Definite=Def|Gender=Fem|Number=Sing;head=4;rule=NPD04
+2	ми	мой	PRON	Psot--1	Person=1|Poss=Yes|PronType=Prs	1	det	_	_	P1
+3	червена	червен	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	P1
+4	кола	кола	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	7	nsubj	_	_	P1
+5	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_	_
+6	в	в	ADP	R	_	7	case	_	_	P2:NPD;prep=в;Definite=Def|Gender=Masc|Number=Sing;head=7;rule=NPD01
+7	гаража	гараж	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No	P2
+8	.	.	PUNCT	punct	_	7	punct	_	_	_
+
+# sent_id = 2
+# text = Тези две стари книги са на моята сестра.
+1	Тези	този	DET	Pde-op	Number=Plur|PronType=Dem	4	det	_	_	P3:NPI;Definite=Def|Gender=Fem|Number=Plur;head=4;rule=NPI08
+2	две	два	NUM	Mcfpi	Definite=Ind|Gender=Fem|Number=Plur|NumType=Card	4	nummod	_	_	P3
+3	стари	стар	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	4	amod	_	_	P3
+4	книги	книга	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	8	nsubj	_	_	P3
+5	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_	_
+6	на	на	ADP	R	_	8	case	_	_	P4:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=8;rule=NPD08
+7	моята	мой	DET	Psol-s1fd	Definite=Def|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	det	_	_	P4
+8	сестра	сестра	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No	P4
+9	.	.	PUNCT	punct	_	8	punct	_	_	_
+
+# sent_id = 3
+# text = Майка ми купи всичките тези хубави ябълки.
+1	Майка	майка	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	_	P5:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=1;rule=NPI01a
+2	ми	мой	PRON	Psot--1	Person=1|Poss=Yes|PronType=Prs	3	iobj	_	_	P5
+3	купи	купя	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_	_
+4	всичките	всичка	DET	Pce-op	Case=Nom|Number=Plur|PronType=Tot	7	det	_	_	P6:NPD;Definite=Def|Gender=Fem|Number=Plur;head=7;rule=NPD26
+5	тези	този	DET	Pde-op	Number=Plur|PronType=Dem	7	det	_	_	P6
+6	хубави	хубав	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	7	amod	_	_	P6
+7	ябълки	ябълка	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No	P6
+8	.	.	PUNCT	punct	_	3	punct	_	_	_
+
+# sent_id = 4
+# text = Първите две години бяха трудни за нашия малък екип.
+1	Първите	пръв	ADJ	Mo-pd	Definite=Def|Degree=Pos|Number=Plur|NumType=Ord	3	amod	_	_	P7:NPD;Definite=Def|Gender=Fem|Number=Plur;head=3;rule=NPD13
+2	две	два	NUM	Mcfpi	Definite=Ind|Gender=Fem|Number=Plur|NumType=Card	3	nummod	_	_	P7
+3	години	година	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	5	nsubj	_	_	P7
+4	бяха	съм	AUX	Vxitf-t3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_	_
+5	трудни	труден	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	0	root	_	_	P8:AP;Definite=Ind|Number=Plur;head=5;rule=AP01
+6	за	за	ADP	R	_	9	case	_	_	P9:NPD;prep=за;Definite=Def|Gender=Masc|Number=Sing;head=9;rule=NPD08
+7	нашия	наш	DET	Pszl-s1mh	Definite=Def|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	det	_	_	P9
+8	малък	малък	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_	P9
+9	екип	екип	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No	P9
+10	.	.	PUNCT	punct	_	5	punct	_	_	_
+
+# sent_id = 5
+# text = Всеки нов ден носи нещо интересно.
+1	Всеки	всеки	DET	Pce-os-m	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	3	det	_	_	P10:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=3;rule=NPI15
+2	нов	нов	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	P10
+3	ден	ден	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	_	P10
+4	носи	нося-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	_
+5	нещо	някой	PRON	Pfe-os-ni	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	4	obj	_	_	_
+6	интересно	интересно	ADV	Dm	Degree=Pos	4	advmod	_	SpaceAfter=No	_
+7	.	.	PUNCT	punct	_	4	punct	_	_	_
+
+# sent_id = 6
+# text = Видях много красивата жена от съседния вход.
+1	Видях	видя-(се)	VERB	Vpptf-o1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_	_
+2	много	много	ADV	Md-pi	Definite=Ind|Degree=Pos|Number=Plur|NumType=Card	3	advmod	_	_	P11:NPD;Definite=Def|Gender=Fem|Number=Sing;head=4;rule=NPD03b
+3	красивата	красив	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	P11
+4	жена	жена	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	1	obj	_	_	P11
+5	от	от	ADP	R	_	7	case	_	_	P12:NPD;prep=от;Definite=Def|Gender=Masc|Number=Sing;head=7;rule=NPD03
+6	съседния	съседен	ADJ	Amsh	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	P12
+7	вход	вход	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No	P12
+8	.	.	PUNCT	punct	_	1	punct	_	_	_
+
+# sent_id = 7
+# text = Повечето ми приятели живеят в големия град.
+1	Повечето	повече	ADV	Md-pd	Definite=Def|Degree=Pos|Number=Plur|NumType=Card	3	advmod	_	_	P13:NPD;Definite=Def|Gender=Masc|Number=Plur;head=3;rule=NPD21
+2	ми	мой	PRON	Psot--1	Person=1|Poss=Yes|PronType=Prs	1	det	_	_	P13
+3	приятели	приятел	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	4	nsubj	_	_	P13
+4	живеят	живея	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	_
+5	в	в	ADP	R	_	7	case	_	_	P14:NPD;prep=в;Definite=Def|Gender=Masc|Number=Sing;head=7;rule=NPD03
+6	големия	голям	ADJ	Amsh	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	P14
+7	град	град	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	iobj	_	SpaceAfter=No	P14
+8	.	.	PUNCT	punct	_	4	punct	_	_	_
+
+# sent_id = 8
+# text = Тази им идея беше много добра.
+1	Тази	този	DET	Pde-os-f	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_	P15:NPI;Definite=Def|Gender=Fem|Number=Sing;head=3;rule=NPI10
+2	им	техен	PRON	Pszt--3	Person=3|Poss=Yes|PronType=Prs	1	det	_	_	P15
+3	идея	идея	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	6	nsubj	_	_	P15
+4	беше	съм	AUX	Vxitf-t3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_	_
+5	много	много	ADV	Md-pi	Definite=Ind|Degree=Pos|Number=Plur|NumType=Card	6	advmod	_	_	P16:AP;Definite=Ind|Gender=Fem|Number=Sing;head=6;rule=AP03
+6	добра	добър	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No	P16
+7	.	.	PUNCT	punct	_	6	punct	_	_	_
+
+# sent_id = 9
+# text = Последните три дни валя силен дъжд.
+1	Последните	последен	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	3	amod	_	_	P17:NPD;Definite=Def|Gender=Masc|Number=Count;head=3;rule=NPD05
+2	три	три	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	3	nummod	_	_	P17
+3	дни	ден	NOUN	Ncmt	Gender=Masc|Number=Count	4	nsubj	_	_	P17
+4	валя	валя	VERB	Vpiif-o3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_	_
+5	силен	силен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	P18:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=6;rule=NPI02
+6	дъжд	дъжд	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No	P18
+7	.	.	PUNCT	punct	_	4	punct	_	_	_
+
+# sent_id = 10
+# text = Чаша вода и парче хляб стигат.
+1	Чаша	чаша	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	6	nsubj	_	_	P19:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=1;rule=NPI01b
+2	вода	вода	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	_	P19
+3	и	и	CCONJ	Cp	_	4	cc	_	_	_
+4	парче	парче	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	1	conj	_	_	P20:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=4;rule=NPI01b
+5	хляб	хляб	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	_	P20
+6	стигат	стигам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No	_
+7	.	.	PUNCT	punct	_	6	punct	_	_	_
+
+# sent_id = 11
+# text = Новата и красива къща е на брат ми.
+1	Новата	нов	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	P21:NPD;Definite=Def|Gender=Fem|Number=Sing;head=4;rule=NPD03a
+2	и	и	CCONJ	Cp	_	3	cc	_	_	P21
+3	красива	красив	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	1	conj	_	_	P21
+4	къща	къща	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	7	nsubj	_	_	P21
+5	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_	_
+6	на	на	ADP	R	_	7	case	_	_	P22:NPI;prep=на;Definite=Ind|Gender=Masc|Number=Sing;head=7;rule=NPI01a
+7	брат	брат	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_	P22
+8	ми	мой	PRON	Psot--1	Person=1|Poss=Yes|PronType=Prs	7	det	_	SpaceAfter=No	P22
+9	.	.	PUNCT	punct	_	7	punct	_	_	_
+
+# sent_id = 12
+# text = Кои книги чете той?
+1	Кои	кой	DET	Pie-op	Case=Nom|Number=Plur|PronType=Int	2	det	_	_	P23:NPI;Definite=Ind|Gender=Fem|Number=Plur;head=2;rule=NPI12
+2	книги	книга	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	_	P23
+3	чете	чета	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	_
+4	той	аз	PRON	Ppe-os3m	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No	_
+5	?	?	PUNCT	punct	_	3	punct	_	SpacesAfter=\n	_
+

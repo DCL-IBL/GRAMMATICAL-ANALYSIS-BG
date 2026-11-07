@@ -1,0 +1,181 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC DCL:CLAUSE
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = bulgarian-btb-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Когато дойде, ще го видя.
+1	Когато	когато	ADV	Prt	PronType=Rel	2	advmod	_	_	C1:SUB;head=C2;conj=S042:когато
+2	дойде	дойда	VERB	Vppif-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	SpaceAfter=No	C1
+3	,	,	PUNCT	punct	_	2	punct	_	_	C1
+4	ще	ще	AUX	Tx	_	6	aux	_	_	C2:MAIN
+5	го	аз	PRON	Ppetas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_	C2
+6	видя	видя-(се)	VERB	Vpptf-r1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No	C2
+7	.	.	PUNCT	punct	_	6	punct	_	_	C2
+
+# sent_id = 2
+# text = Той каза, че ще дойде, и си тръгна.
+1	Той	аз	PRON	Ppe-os3m	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_	C3:MAIN
+2	каза	кажа	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No	C3
+3	,	,	PUNCT	punct	_	6	punct	_	_	C3
+4	че	че	SCONJ	Cs	_	6	mark	_	_	C4:SUB;head=C3;conj=S016:че
+5	ще	ще	AUX	Tx	_	6	aux	_	_	C4
+6	дойде	дойда	VERB	Vppif-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	SpaceAfter=No	C4
+7	,	,	PUNCT	punct	_	8	punct	_	_	C4
+8	и	и	CCONJ	Cp	_	10	cc	_	_	C5:COORD;coord=C3;conj=S154:и
+9	си	се	PRON	Ppxtd	Case=Dat|PronType=Prs|Reflex=Yes	10	expl	_	_	C5
+10	тръгна	тръгна-(си)	VERB	Vppif-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No	C5
+11	.	.	PUNCT	punct	_	2	punct	_	_	C5
+
+# sent_id = 3
+# text = Човекът, който дойде вчера, е мой брат.
+1	Човекът	човек	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No	C6:MAIN
+2	,	,	PUNCT	punct	_	4	punct	_	_	C6
+3	който	който	PRON	Pre-os-m	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	4	nsubj	_	_	C7:SUB;head=C6;conj=S116:който
+4	дойде	дойда	VERB	Vppif-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_	C7
+5	вчера	вчера	ADV	Dt	Degree=Pos	4	advmod	_	SpaceAfter=No	C7
+6	,	,	PUNCT	punct	_	4	punct	_	_	C7
+7	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_	C6
+8	мой	мой	DET	Psol-s1mi	Definite=Ind|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	det	_	_	C6
+9	брат	брат	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No	C6
+10	.	.	PUNCT	punct	_	9	punct	_	_	C6
+
+# sent_id = 4
+# text = Искам да отида на кино, но нямам време.
+1	Искам	искам	VERB	Vpitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	C8:MAIN
+2	да	да	AUX	Tx	_	3	aux	_	_	C9:SUB;head=C8;conj=S036:да
+3	отида	отида-(си)	VERB	Vppif-r1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	_	C9
+4	на	на	ADP	R	_	5	case	_	_	C9
+5	кино	кино	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	3	iobj	_	SpaceAfter=No	C9
+6	,	,	PUNCT	punct	_	7	punct	_	_	C9
+7	но	но	CCONJ	Cc	_	8	cc	_	_	C10:COORD;coord=C8;conj=S174:но
+8	нямам	нямам	VERB	Vpitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_	C10
+9	време	време	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	8	obj	_	SpaceAfter=No	C10
+10	.	.	PUNCT	punct	_	1	punct	_	_	C10
+
+# sent_id = 5
+# text = Мога да дойда утре.
+1	Мога	мога	VERB	Vpiif-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	C11:MAIN
+2	да	да	AUX	Tx	_	3	aux	_	_	C11
+3	дойда	дойда	VERB	Vppif-r1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	xcomp	_	_	C11
+4	утре	утре	ADV	Dt	Degree=Pos	3	advmod	_	SpaceAfter=No	C11
+5	.	.	PUNCT	punct	_	1	punct	_	_	C11
+
+# sent_id = 6
+# text = Той започна да чете книгата, защото му беше интересно.
+1	Той	аз	PRON	Ppe-os3m	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_	C12:MAIN
+2	започна	започна	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_	C12
+3	да	да	AUX	Tx	_	4	aux	_	_	C12
+4	чете	чета	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	xcomp	_	_	C12
+5	книгата	книга	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No	C12
+6	,	,	PUNCT	punct	_	10	punct	_	_	C12
+7	защото	защото	ADV	Prc	_	10	advmod	_	_	C13:SUB;head=C12;conj=S030:защото
+8	му	аз	PRON	Ppetds3m	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	iobj	_	_	C13
+9	беше	съм	AUX	Vxitf-t3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	_	C13
+10	интересно	интересно	ADV	Dm	Degree=Pos	2	advcl	_	SpaceAfter=No	C13
+11	.	.	PUNCT	punct	_	2	punct	_	_	C13
+
+# sent_id = 7
+# text = Казах му, че идвам, ще закъснея.
+1	Казах	кажа	VERB	Vpptf-o1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_	C14:MAIN
+2	му	аз	PRON	Ppetds3m	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	iobj	_	SpaceAfter=No	C14
+3	,	,	PUNCT	punct	_	5	punct	_	_	C14
+4	че	че	SCONJ	Cs	_	5	mark	_	_	C15:SUB;head=C14;conj=S016:че
+5	идвам	идвам	VERB	Vpiif-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	SpaceAfter=No	C15
+6	,	,	PUNCT	punct	_	5	punct	_	_	C15
+7	ще	ще	AUX	Tx	_	8	aux	_	_	C16:COORD;coord=C14
+8	закъснея	закъснея	VERB	Vppif-r1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	SpaceAfter=No	C16
+9	.	.	PUNCT	punct	_	1	punct	_	_	C16
+
+# sent_id = 8
+# text = Тя пееше и танцуваше.
+1	Тя	аз	PRON	Ppe-os3f	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_	C17:MAIN
+2	пееше	пея	VERB	Vpitf-m3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	_	C17
+3	и	и	CCONJ	Cp	_	4	cc	_	_	C18:COORD;coord=C17;conj=S154:и
+4	танцуваше	танцувам	VERB	Vpiif-m3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No	C18
+5	.	.	PUNCT	punct	_	2	punct	_	_	C18
+
+# sent_id = 9
+# text = Не знам какво иска.
+1	Не	не	PART	Tn	Polarity=Neg	2	advmod	_	_	C19:MAIN
+2	знам	знам	VERB	Vpiif-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	C19
+3	какво	какъв	DET	Pia--s-n	Gender=Neut|Number=Sing|PronType=Int	4	obj	_	_	C20:SUB;head=C19;conj=S118:какво
+4	иска	искам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	SpaceAfter=No	C20
+5	.	.	PUNCT	punct	_	2	punct	_	_	C20
+
+# sent_id = 10
+# text = Той нямаше по това време да се е върнал.
+1	Той	аз	PRON	Ppe-os3m	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_	C21:MAIN
+2	нямаше	нямам	VERB	Vnitf-m3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	_	C21
+3	по	по	ADP	R	_	5	case	_	_	C21
+4	това	този	DET	Pde-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_	C21
+5	време	време	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	_	C21
+6	да	да	AUX	Tx	_	9	aux	_	_	C21
+7	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	9	expl	_	_	C21
+8	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_	C21
+9	върнал	върна-(се)	VERB	Vpptcao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	ccomp	_	SpaceAfter=No	C21
+10	.	.	PUNCT	punct	_	2	punct	_	_	C21
+
+# sent_id = 11
+# text = Вали; ще остана вкъщи.
+1	Вали	вали	VERB	Vpiiz--2s	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No	C22:MAIN
+2	;	;	PUNCT	punct	_	1	punct	_	_	C22
+3	ще	ще	AUX	Tx	_	4	aux	_	_	C23:MAIN
+4	остана	остана	VERB	Vppif-r1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_	C23
+5	вкъщи	вкъщи	ADV	Dl	Degree=Pos	4	advmod	_	SpaceAfter=No	C23
+6	.	.	PUNCT	punct	_	1	punct	_	_	C23
+
+# sent_id = 12
+# text = Може би ще дойде.
+1	Може	може	VERB	Vniif-r3s	Aspect=Imp|ExtPos=ADV|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_	C24:MAIN
+2	би	съм	AUX	Vxitu-o3s	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	fixed	_	_	C24
+3	ще	ще	AUX	Tx	_	4	aux	_	_	C24
+4	дойде	дойда	VERB	Vppif-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No	C24
+5	.	.	PUNCT	punct	_	4	punct	_	_	C24
+
+# sent_id = 13
+# text = Ако имаш време, ела, за да поговорим.
+1	Ако	ако	SCONJ	Cs	_	2	mark	_	_	C25:SUB;head=C26;conj=S071:ако
+2	имаш	имам	VERB	Vpitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_	C25
+3	време	време	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No	C25
+4	,	,	PUNCT	punct	_	2	punct	_	_	C25
+5	ела	дойда	VERB	Vpiiz--2s	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No	C26:MAIN
+6	,	,	PUNCT	punct	_	9	punct	_	_	C26
+7	за	за	ADP	R	ExtPos=SCONJ	9	mark	_	_	C27:SUB;head=C26;conj=S092:за_да
+8	да	да	AUX	Tx	_	7	fixed	_	_	C27
+9	поговорим	поговоря	VERB	Vpptf-r1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	SpaceAfter=No	C27
+10	.	.	PUNCT	punct	_	5	punct	_	_	C27
+
+# sent_id = 14
+# text = Видях момичето, което ти ми показа, и веднага го познах.
+1	Видях	видя-(се)	VERB	Vpptf-o1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_	C28:MAIN
+2	момичето	момиче	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	1	obj	_	SpaceAfter=No	C28
+3	,	,	PUNCT	punct	_	7	punct	_	_	C28
+4	което	който	PRON	Pre-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	7	obj	_	_	C29:SUB;head=C28;conj=S116:което
+5	ти	аз	PRON	Ppe-os2	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_	C29
+6	ми	аз	PRON	Ppetds1	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_	C29
+7	показа	покажа-(се)	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	SpaceAfter=No	C29
+8	,	,	PUNCT	punct	_	7	punct	_	_	C29
+9	и	и	CCONJ	Cp	_	12	cc	_	_	C30:COORD;coord=C28;conj=S154:и
+10	веднага	веднага	ADV	Dt	Degree=Pos	12	advmod	_	_	C30
+11	го	аз	PRON	Ppetas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_	C30
+12	познах	позная	VERB	Vpptf-o1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No	C30
+13	.	.	PUNCT	punct	_	1	punct	_	_	C30
+
+# sent_id = 15
+# text = Той знае, че тя ще дойде, но не знае кога.
+1	Той	аз	PRON	Ppe-os3m	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_	C31:MAIN
+2	знае	знам	VERB	Vpiif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No	C31
+3	,	,	PUNCT	punct	_	7	punct	_	_	C31
+4	че	че	SCONJ	Cs	_	7	mark	_	_	C32:SUB;head=C31;conj=S016:че
+5	тя	аз	PRON	Ppe-os3f	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_	C32
+6	ще	ще	AUX	Tx	_	7	aux	_	_	C32
+7	дойде	дойда	VERB	Vppif-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	SpaceAfter=No	C32
+8	,	,	PUNCT	punct	_	9	punct	_	_	C32
+9	но	но	CCONJ	Cc	_	11	cc	_	_	C33:COORD;coord=C31;conj=S174:но
+10	не	не	PART	Tn	Polarity=Neg	11	advmod	_	_	C33
+11	знае	знам	VERB	Vpiif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_	C33
+12	кога	кога	ADV	Pit	PronType=Int	11	advmod	_	SpaceAfter=No	C33
+13	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n	C33
+

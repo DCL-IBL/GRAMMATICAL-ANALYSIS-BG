@@ -1,0 +1,108 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC DCL:VERBFORM
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = english-ewt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = She has not been working.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_	F1:Present_Perfect_Progressive+Neg;Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=PresentPerfectProgressive|VerbForm=Fin;rule=ENF041
+3	not	not	PART	RB	Polarity=Neg	5	advmod	_	_	F1
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux	_	_	F1
+5	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No	F1
+6	.	.	PUNCT	.	_	5	punct	_	_	_
+
+# sent_id = 2
+# text = It will have been done.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	_	_
+2	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_	F2:Future_Perfect+Pass;Mood=Ind|Tense=FuturePerfect|VerbForm=Fin|Voice=Pass;rule=ENF063
+3	have	have	AUX	VB	VerbForm=Inf	5	aux	_	_	F2
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux:pass	_	_	F2
+5	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No	F2
+6	.	.	PUNCT	.	_	5	punct	_	_	_
+
+# sent_id = 3
+# text = I didn't go.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_	_
+2-3	didn't	_	_	_	_	_	_	_	_	_
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	aux	_	_	F3:Past_Simple+Neg;Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=PastSimple|VerbForm=Fin;rule=ENF088
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	_	F3
+4	go	go	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No	F3
+5	.	.	PUNCT	.	_	4	punct	_	_	_
+
+# sent_id = 4
+# text = He was going to call.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_	F4:Future_in_the_Past;Mood=Ind|Number=Sing|Person=3|Tense=FutureInThePast|VerbForm=Fin;rule=ENF070
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_	F4
+4	to	to	PART	TO	_	5	mark	_	_	F4
+5	call	call	VERB	VB	VerbForm=Inf	3	xcomp	_	SpaceAfter=No	F4
+6	.	.	PUNCT	.	_	3	punct	_	_	_
+
+# sent_id = 5
+# text = Having gone, he wouldn't have known.
+1	Having	have	AUX	VBG	Tense=Pres|VerbForm=Part	2	aux	_	_	F5:Perfect_Participle;Aspect=Perf|Tense=Past|VerbForm=Part;rule=ENF116
+2	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	8	advcl	_	SpaceAfter=No	F5
+3	,	,	PUNCT	,	_	2	punct	_	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_	_
+5-6	wouldn't	_	_	_	_	_	_	_	_	_
+5	would	would	AUX	MD	VerbForm=Fin	8	aux	_	_	F6:Future_Perfect_in_the_Past+Neg|Conditional_Perfect+Neg;Mood=Ind|Polarity=Neg|Tense=FuturePerfectInThePast|VerbForm=Fin/Mood=Cnd|Polarity=Neg|Tense=Perfect|VerbForm=Fin;rule=ENF076
+6	n't	not	PART	RB	Polarity=Neg	8	advmod	_	_	F6
+7	have	have	AUX	VB	VerbForm=Inf	8	aux	_	_	F6
+8	known	know	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No	F6
+9	.	.	PUNCT	.	_	8	punct	_	_	_
+
+# sent_id = 6
+# text = They cannot swim.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_	_
+2-3	cannot	_	_	_	_	_	_	_	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_	_
+3	not	not	PART	RB	Polarity=Neg	4	advmod	_	_	_
+4	swim	swim	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No	F7:Infinitive;VerbForm=Inf;rule=ENF132
+5	.	.	PUNCT	.	_	4	punct	_	_	_
+
+# sent_id = 7
+# text = The letter was written yesterday.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_	_
+2	letter	letter	NOUN	NN	Number=Sing	4	nsubj:pass	_	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_	F8:Past_Simple+Pass;Mood=Ind|Number=Sing|Person=3|Tense=PastSimple|VerbForm=Fin|Voice=Pass;rule=ENF125
+4	written	write	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_	F8
+5	yesterday	yesterday	NOUN	NN	Number=Sing	4	obl:unmarked	_	SpaceAfter=No	_
+6	.	.	PUNCT	.	_	4	punct	_	_	_
+
+# sent_id = 8
+# text = Is he going to the shop?
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_	F9:Present_Progressive;Mood=Ind|Number=Sing|Person=3|Tense=PresentProgressive|VerbForm=Fin;rule=ENF120
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_	_
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_	F9
+4	to	to	ADP	IN	_	6	case	_	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_	_
+6	shop	shop	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No	_
+7	?	?	PUNCT	.	_	3	punct	_	_	_
+
+# sent_id = 9
+# text = We are going to be told.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_	_
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_	F10:Future_Simple+Pass;Mood=Ind|Number=Plur|Person=1|Tense=FutureSimple|VerbForm=Fin|Voice=Pass;rule=ENF014
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_	F10
+4	to	to	PART	TO	_	6	mark	_	_	F10
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_	F10
+6	told	tell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	xcomp	_	SpaceAfter=No	F10
+7	.	.	PUNCT	.	_	3	punct	_	_	_
+
+# sent_id = 10
+# text = I do like it.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_	_
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_	F11:Present_Simple;Mood=Ind|Number=Sing|Person=1|Tense=PresentSimple|VerbForm=Fin;rule=ENF117
+3	like	like	VERB	VB	VerbForm=Inf	0	root	_	_	F11
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No	_
+5	.	.	PUNCT	.	_	3	punct	_	_	_
+
+# sent_id = 11
+# text = She goes home.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_	_
+2	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_	F12:Present_Simple;Mood=Ind|Number=Sing|Person=3|Tense=PresentSimple|VerbForm=Fin;rule=ENF135
+3	home	home	ADV	RB	_	2	advmod	_	SpaceAfter=No	_
+4	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No	_
+

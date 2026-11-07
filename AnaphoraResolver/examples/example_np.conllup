@@ -1,0 +1,155 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC DCL:NP
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = bulgarian-btb-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Мария дойде вчера.
+1	Мария	мария	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	2	nsubj	_	_	P1:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=1;rule=NPI01
+2	дойде	дойда	VERB	Vppif-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_	_
+3	вчера	вчера	ADV	Dt	Degree=Pos	2	advmod	_	SpaceAfter=No	_
+4	.	.	PUNCT	punct	_	2	punct	_	_	_
+
+# sent_id = 2
+# text = Седна до прозореца и погледна навън.
+1	Седна	седна	VERB	Vppif-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_	_
+2	до	до	ADP	R	_	3	case	_	_	P2:NPD;prep=до;Definite=Def|Gender=Masc|Number=Sing;head=3;rule=NPD01
+3	прозореца	прозорец	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	1	iobj	_	_	P2
+4	и	и	CCONJ	Cp	_	5	cc	_	_	_
+5	погледна	погледна	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_	_
+6	навън	навън	ADV	Dl	Degree=Pos	5	obj	_	SpaceAfter=No	_
+7	.	.	PUNCT	punct	_	1	punct	_	_	_
+
+# sent_id = 3
+# text = Тя изглеждаше уморена.
+1	Тя	аз	PRON	Ppe-os3f	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_	_
+2	изглеждаше	изглеждам	VERB	Vpitf-m3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	_	_
+3	уморена	уморя-(се)	ADJ	Vpptcv--sfi	Aspect=Perf|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	obj	_	SpaceAfter=No	P3:AP;Definite=Ind|Gender=Fem|Number=Sing;head=3;rule=AP01
+4	.	.	PUNCT	punct	_	2	punct	_	_	_
+
+# sent_id = 4
+# text = Видях я и ѝ подадох книгата, която донесох.
+1	Видях	видя-(се)	VERB	Vpptf-o1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_	_
+2	я	аз	PRON	Ppetas3f	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	_	_	_
+3	и	и	CCONJ	Cp	_	5	cc	_	_	_
+4	ѝ	ѝ	CCONJ	Cp	_	5	cc	_	_	_
+5	подадох	подам-(се)	VERB	Vpptf-o1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_	_
+6	книгата	книга	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No	P4:NPD;Definite=Def|Gender=Fem|Number=Sing;head=6;rule=NPD01
+7	,	,	PUNCT	punct	_	9	punct	_	_	_
+8	която	който	PRON	Pre-os-f	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	9	obj	_	_	_
+9	донесох	донеса	VERB	Vpptf-o1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	SpaceAfter=No	_
+10	.	.	PUNCT	punct	_	1	punct	_	_	_
+
+# sent_id = 5
+# text = Книгата беше нейна.
+1	Книгата	книга	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	_	P5:NPD;Definite=Def|Gender=Fem|Number=Sing;head=1;rule=NPD01
+2	беше	съм	AUX	Vxitf-t3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_	_
+3	нейна	мой	DET	Psol-s3fif	Definite=Ind|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	root	_	SpaceAfter=No	_
+4	.	.	PUNCT	punct	_	3	punct	_	SpacesAfter=\n\n	_
+
+# newpar
+# sent_id = 6
+# text = Вали силно.
+1	Вали	валя	VERB	Vpitz--2s	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_	_
+2	силно	силно	ADV	Dm	Degree=Pos	1	advmod	_	SpaceAfter=No	_
+3	.	.	PUNCT	punct	_	1	punct	_	_	_
+
+# sent_id = 7
+# text = Има много хора на площада.
+1	Има	имам	VERB	Vnitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	_
+2	много	много	ADV	Md-pi	Definite=Ind|Degree=Pos|Number=Plur|NumType=Card	3	advmod	_	_	P6:NPI;Definite=Ind|Number=Ptan;head=3;rule=NPI04
+3	хора	хора	NOUN	Nc-li	Definite=Ind|Number=Ptan	1	obj	_	_	P6
+4	на	на	ADP	R	_	5	case	_	_	P7:NPD;prep=на;Definite=Def|Gender=Masc|Number=Sing;head=5;rule=NPD01
+5	площада	площад	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No	P7
+6	.	.	PUNCT	punct	_	1	punct	_	_	_
+
+# sent_id = 8
+# text = Трябва да тръгваме.
+1	Трябва	трябва	VERB	Vniif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	_
+2	да	да	AUX	Tx	_	3	aux	_	_	_
+3	тръгваме	тръгвам-(си)	VERB	Vpiif-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	SpaceAfter=No	_
+4	.	.	PUNCT	punct	_	1	punct	_	_	_
+
+# sent_id = 9
+# text = Студено е.
+1	Студено	студено	ADV	Dm	Degree=Pos	0	root	_	_	_
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	SpaceAfter=No	_
+3	.	.	PUNCT	punct	_	1	punct	_	_	_
+
+# sent_id = 10
+# text = Говори се, че ще вали цял ден.
+1	Говори	говоря	VERB	Vnitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	_
+2	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	SpaceAfter=No	_
+3	,	,	PUNCT	punct	_	6	punct	_	_	_
+4	че	че	SCONJ	Cs	_	6	mark	_	_	_
+5	ще	ще	AUX	Tx	_	6	aux	_	_	_
+6	вали	вали	VERB	Vniif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj:pass	_	_	_
+7	цял	цял	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	P8:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=8;rule=NPI02
+8	ден	ден	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No	P8
+9	.	.	PUNCT	punct	_	1	punct	_	_	_
+
+# sent_id = 11
+# text = Казват, че зимата ще е студена.
+1	Казват	казвам-(се)	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No	_
+2	,	,	PUNCT	punct	_	7	punct	_	_	_
+3	че	че	SCONJ	Cs	_	7	mark	_	_	_
+4	зимата	зима	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	_	P9:NPD;Definite=Def|Gender=Fem|Number=Sing;head=4;rule=NPD01
+5	ще	ще	AUX	Tx	_	7	aux	_	_	_
+6	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_	_
+7	студена	студен	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	1	ccomp	_	SpaceAfter=No	P10:AP;Definite=Ind|Gender=Fem|Number=Sing;head=7;rule=AP01
+8	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n\n	_
+
+# newpar
+# sent_id = 12
+# text = Иван реши да замине.
+1	Иван	иван	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	_	P11:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=1;rule=NPI01
+2	реши	реша	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_	_
+3	да	да	AUX	Tx	_	4	aux	_	_	_
+4	замине	замина	VERB	Vpptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	SpaceAfter=No	_
+5	.	.	PUNCT	punct	_	2	punct	_	_	_
+
+# sent_id = 13
+# text = Той няма да се върне скоро.
+1	Той	аз	PRON	Ppe-os3m	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_	_
+2	няма	нямам	VERB	Vnitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	_
+3	да	да	AUX	Tx	_	5	aux	_	_	_
+4	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	_	_
+5	върне	върна-(се)	VERB	Vpptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_	_
+6	скоро	скоро	ADV	Dt	Degree=Pos	5	advmod	_	SpaceAfter=No	_
+7	.	.	PUNCT	punct	_	2	punct	_	_	_
+
+# sent_id = 14
+# text = Колата му е нова.
+1	Колата	кола	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	_	P12:NPD;Definite=Def|Gender=Fem|Number=Sing;head=1;rule=NPD02
+2	му	мой	PRON	Psot--3--m	Person=3|Poss=Yes|PronType=Prs	1	det	_	_	P12
+3	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_	_
+4	нова	нов	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No	P13:AP;Definite=Ind|Gender=Fem|Number=Sing;head=4;rule=AP01
+5	.	.	PUNCT	punct	_	4	punct	_	_	_
+
+# sent_id = 15
+# text = Брат му обича своята работа.
+1	Брат	брат	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	_	P14:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=1;rule=NPI01a
+2	му	мой	PRON	Psot--3--m	Person=3|Poss=Yes|PronType=Prs	1	det	_	_	P14
+3	обича	обичам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	_
+4	своята	свой	DET	Psxlos-fd	Definite=Def|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	_	P15:NPD;Definite=Def|Gender=Fem|Number=Sing;head=5;rule=NPD08
+5	работа	работа	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No	P15
+6	.	.	PUNCT	punct	_	3	punct	_	_	_
+
+# sent_id = 16
+# text = Това ме изненада.
+1	Това	този	PRON	Pde-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_	_
+2	ме	аз	PRON	Ppetas1	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_	_
+3	изненада	изненадам-(се)	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No	_
+4	.	.	PUNCT	punct	_	3	punct	_	_	_
+
+# sent_id = 17
+# text = Каквото посееш, това ще пожънеш.
+1	Каквото	какъвто	PRON	Pre--s	Number=Sing|PronType=Rel	2	obj	_	_	_
+2	посееш	посея-(се)	VERB	Vpitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	SpaceAfter=No	_
+3	,	,	PUNCT	punct	_	2	punct	_	_	_
+4	това	този	PRON	Pde-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	obj	_	_	_
+5	ще	ще	AUX	Tx	_	6	aux	_	_	_
+6	пожънеш	пожъна-(си)	VERB	Vpptf-r2s	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No	_
+7	.	.	PUNCT	punct	_	6	punct	_	SpacesAfter=\n	_
+

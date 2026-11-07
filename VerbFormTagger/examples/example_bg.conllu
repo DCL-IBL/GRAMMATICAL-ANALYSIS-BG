@@ -1,0 +1,164 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = bulgarian-btb-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Исках да му покажа, че се е докарал до лошо състояние, но той щеше да ми каже, че няма смисъл и няма да идва, за да не бъде обвинен, че е изпуснал влака, който щял бързо да е бил заминал за Варна.
+1	Исках	искам	VERB	Vpitf-m1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	_
+2	да	да	AUX	Tx	_	4	aux	_	_
+3	му	аз	PRON	Ppetds3m	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+4	покажа	покажа-(се)	VERB	Vpptf-r1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	punct	_	9	punct	_	_
+6	че	че	SCONJ	Cs	_	9	mark	_	_
+7	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	9	expl	_	_
+8	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
+9	докарал	докарам	VERB	Vpptcao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	ccomp	_	_
+10	до	до	ADP	R	_	12	case	_	_
+11	лошо	лош	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	състояние	състояние	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	punct	_	14	punct	_	_
+14	но	но	CCONJ	Cc	_	16	cc	_	_
+15	той	аз	PRON	Ppe-os3m	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	щеше	ща	VERB	Vpitf-m3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	1	conj	_	_
+17	да	да	AUX	Tx	_	19	aux	_	_
+18	ми	аз	PRON	Ppetds1	Case=Dat|Number=Sing|Person=1|PronType=Prs	19	iobj	_	_
+19	каже	кажа	VERB	Vpptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	xcomp	_	SpaceAfter=No
+20	,	,	PUNCT	punct	_	22	punct	_	_
+21	че	че	SCONJ	Cs	_	22	mark	_	_
+22	няма	нямам	VERB	Vnitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	ccomp	_	_
+23	смисъл	смисъл	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	22	obj	_	_
+24	и	и	CCONJ	Cp	_	25	cc	_	_
+25	няма	нямам	VERB	Vnitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	conj	_	_
+26	да	да	AUX	Tx	_	27	aux	_	_
+27	идва	идвам	VERB	Vpiif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	ccomp	_	SpaceAfter=No
+28	,	,	PUNCT	punct	_	33	punct	_	_
+29	за	за	ADP	R	ExtPos=SCONJ	33	mark	_	_
+30	да	да	AUX	Tx	_	29	fixed	_	_
+31	не	не	PART	Tn	Polarity=Neg	33	advmod	_	_
+32	бъде	бъда	AUX	Vyptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	aux:pass	_	_
+33	обвинен	обвиня	VERB	Vpptcv--smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	16	advcl	_	SpaceAfter=No
+34	,	,	PUNCT	punct	_	37	punct	_	_
+35	че	че	SCONJ	Cs	_	37	mark	_	_
+36	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	37	aux	_	_
+37	изпуснал	изпусна-(се)	VERB	Vpptcao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	33	ccomp	_	_
+38	влака	влак	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	37	obj	_	SpaceAfter=No
+39	,	,	PUNCT	punct	_	41	punct	_	_
+40	който	който	PRON	Pre-os-m	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	41	nsubj	_	_
+41	щял	ща	VERB	Vpitcam-smi	Aspect=Imp|Definite=Ind|Gender=Masc|Number=Sing|Tense=Imp|VerbForm=Part|Voice=Act	38	acl:relcl	_	_
+42	бързо	бързо	ADV	Dm	Degree=Pos	46	advmod	_	_
+43	да	да	AUX	Tx	_	46	aux	_	_
+44	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	46	aux	_	_
+45	бил	съм	AUX	Vxitcat-smi	Aspect=Imp|Definite=Ind|Gender=Masc|Mood=Ind|Number=Sing|VerbForm=Part|Voice=Act	46	aux	_	_
+46	заминал	замина	VERB	Vpptcao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	41	xcomp	_	_
+47	за	за	ADP	R	_	48	case	_	_
+48	Варна	варна	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	46	iobj	_	SpaceAfter=No
+49	.	.	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = 2
+# text = Той щеше вече да е заминал.
+1	Той	аз	PRON	Ppe-os3m	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	щеше	ща	VERB	Vpitf-m3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	_
+3	вече	вече	ADV	Dt	Degree=Pos	2	advmod	_	_
+4	да	да	AUX	Tx	_	6	aux	_	_
+5	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+6	заминал	замина	VERB	Vpptcao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 3
+# text = Той нямаше по това време да се е върнал.
+1	Той	аз	PRON	Ppe-os3m	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	нямаше	нямам	VERB	Vnitf-m3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	_
+3	по	по	ADP	R	_	5	case	_	_
+4	това	този	DET	Pde-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
+5	време	време	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	_
+6	да	да	AUX	Tx	_	9	aux	_	_
+7	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	9	expl	_	_
+8	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
+9	върнал	върна-(се)	VERB	Vpptcao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 4
+# text = Не бил ли е видял?
+1	Не	не	PART	Tn	Polarity=Neg	5	advmod	_	_
+2	бил	съм	AUX	Vxitcat-smi	Aspect=Imp|Definite=Ind|Gender=Masc|Mood=Ind|Number=Sing|VerbForm=Part|Voice=Act	5	aux	_	_
+3	ли	ли	PART	Ti	_	5	discourse	_	_
+4	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+5	видял	видя-(се)	VERB	Vpptcao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	punct	_	5	punct	_	_
+
+# sent_id = 5
+# text = Аз бих го прочел.
+1	Аз	аз	PRON	Ppe-os1	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	бих	съм	AUX	Vxitu-o1s	Aspect=Imp|Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	4	aux	_	_
+3	го	аз	PRON	Ppetas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	прочел	прочта	VERB	Vpptcao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = 6
+# text = Може би ще дойде.
+1	Може	може	VERB	Vniif-r3s	Aspect=Imp|ExtPos=ADV|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+2	би	съм	AUX	Vxitu-o3s	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	fixed	_	_
+3	ще	ще	AUX	Tx	_	4	aux	_	_
+4	дойде	дойда	VERB	Vppif-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = 7
+# text = Нека да дойде.
+1	Нека	нека	PART	Tv	_	0	root	_	_
+2	да	да	AUX	Tx	_	3	aux	_	_
+3	дойде	дойда	VERB	Vppif-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	SpaceAfter=No
+4	.	.	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = 8
+# text = Недей да му го даваш.
+1	Недей	недей	VERB	Vpiiz--2s	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
+2	да	да	AUX	Tx	_	5	aux	_	_
+3	му	аз	PRON	Ppetds3m	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+4	го	аз	PRON	Ppetas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	даваш	давам-(се)	VERB	Vpitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	SpaceAfter=No
+6	.	.	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = 9
+# text = Писмото беше написано вчера.
+1	Писмото	писмо	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+2	беше	съм	AUX	Vxitf-t3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	написано	напиша	VERB	Vpptcv--sni	Aspect=Perf|Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вчера	вчера	ADV	Dt	Degree=Pos	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = 10
+# text = Ще съм свършил до утре.
+1	Ще	ще	AUX	Tx	_	3	aux	_	_
+2	съм	съм	AUX	Vxitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	свършил	свърша	VERB	Vpptcao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4	до	до	ADP	R	_	5	case	_	_
+5	утре	утре	ADV	Dt	Degree=Pos	3	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = 11
+# text = Бях му го дал.
+1	Бях	съм	AUX	Vxitf-t1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	_	_
+2	му	аз	PRON	Ppetds3m	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+3	го	аз	PRON	Ppetas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	дал	дам-(се)	VERB	Vpptcao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = 12
+# text = Тя се смееше.
+1	Тя	аз	PRON	Ppe-os3f	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	_
+3	смееше	смея-се	VERB	Vpiif-m3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = 13
+# text = Ти не си ли му го дал?
+1	Ти	аз	PRON	Ppe-os2	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
+2	не	не	PART	Tn	Polarity=Neg	7	advmod	_	_
+3	си	съм	AUX	Vxitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
+4	ли	ли	PART	Ti	_	7	discourse	_	_
+5	му	аз	PRON	Ppetds3m	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+6	го	аз	PRON	Ppetas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	дал	дам-(се)	VERB	Vpptcao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
+8	?	?	PUNCT	punct	_	7	punct	_	SpaceAfter=No
+

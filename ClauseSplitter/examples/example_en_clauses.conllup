@@ -1,0 +1,146 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC DCL:CLAUSE
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = english-ewt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = When he came, I saw him.
+1	When	when	ADV	WRB	PronType=Int	3	advmod	_	_	C1:SUB;head=C2;conj=S037:when
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_	C1
+3	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	SpaceAfter=No	C1
+4	,	,	PUNCT	,	_	3	punct	_	_	C1
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_	C2:MAIN
+6	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_	C2
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No	C2
+8	.	.	PUNCT	.	_	6	punct	_	_	C2
+
+# sent_id = 2
+# text = He said that he would come, and he left.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_	C3:MAIN
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_	C3
+3	that	that	SCONJ	IN	_	6	mark	_	_	C4:SUB;head=C3;conj=S016:that
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_	C4
+5	would	would	AUX	MD	VerbForm=Fin	6	aux	_	_	C4
+6	come	come	VERB	VB	VerbForm=Inf	2	ccomp	_	SpaceAfter=No	C4
+7	,	,	PUNCT	,	_	10	punct	_	_	C4
+8	and	and	CCONJ	CC	_	10	cc	_	_	C5:COORD;coord=C3;conj=S154:and
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_	C5
+10	left	leave	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No	C5
+11	.	.	PUNCT	.	_	2	punct	_	_	C5
+
+# sent_id = 3
+# text = The man who came yesterday is my brother.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_	C6:MAIN
+2	man	man	NOUN	NN	Number=Sing	8	nsubj	_	_	C6
+3	who	who	PRON	WP	PronType=Rel	4	nsubj	_	_	C7:SUB;head=C6;conj=S116:who
+4	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_	C7
+5	yesterday	yesterday	NOUN	NN	Number=Sing	4	obl:unmarked	_	_	C7
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_	C6
+7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_	C6
+8	brother	brother	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No	C6
+9	.	.	PUNCT	.	_	8	punct	_	_	C6
+
+# sent_id = 4
+# text = I want to go to the cinema, but I have no time.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_	C8:MAIN
+2	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_	C8
+3	to	to	PART	TO	_	4	mark	_	_	C9:SUB;head=C8;conj=S036:to
+4	go	go	VERB	VB	VerbForm=Inf	2	xcomp	_	_	C9
+5	to	to	ADP	IN	_	7	case	_	_	C9
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_	C9
+7	cinema	cinema	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No	C9
+8	,	,	PUNCT	,	_	11	punct	_	_	C9
+9	but	but	CCONJ	CC	_	11	cc	_	_	C10:COORD;coord=C8;conj=S155:but
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_	C10
+11	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_	C10
+12	no	no	DET	DT	PronType=Neg	13	det	_	_	C10
+13	time	time	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No	C10
+14	.	.	PUNCT	.	_	2	punct	_	_	C10
+
+# sent_id = 5
+# text = I can come tomorrow.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_	C11:MAIN
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_	C11
+3	come	come	VERB	VB	VerbForm=Inf	0	root	_	_	C11
+4	tomorrow	tomorrow	NOUN	NN	Number=Sing	3	obl:unmarked	_	SpaceAfter=No	C11
+5	.	.	PUNCT	.	_	3	punct	_	_	C11
+
+# sent_id = 6
+# text = He started to read the book because it was interesting.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_	C12:MAIN
+2	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_	C12
+3	to	to	PART	TO	_	4	mark	_	_	C12
+4	read	read	VERB	VB	VerbForm=Inf	2	xcomp	_	_	C12
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_	C12
+6	book	book	NOUN	NN	Number=Sing	4	obj	_	_	C12
+7	because	because	SCONJ	IN	_	10	mark	_	_	C13:SUB;head=C12;conj=S067:because
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_	C13
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_	C13
+10	interesting	interesting	ADJ	JJ	Degree=Pos	4	advcl	_	SpaceAfter=No	C13
+11	.	.	PUNCT	.	_	2	punct	_	_	C13
+
+# sent_id = 7
+# text = She sang and danced.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_	C14:MAIN
+2	sang	sing	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_	C14
+3	and	and	CCONJ	CC	_	4	cc	_	_	C15:COORD;coord=C14;conj=S154:and
+4	danced	dance	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No	C15
+5	.	.	PUNCT	.	_	2	punct	_	_	C15
+
+# sent_id = 8
+# text = I don't know what she wants.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_	C16:MAIN
+2-3	don't	_	_	_	_	_	_	_	_	_
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_	C16
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	_	C16
+4	know	know	VERB	VB	VerbForm=Inf	0	root	_	_	C16
+5	what	what	PRON	WP	PronType=Int	7	obj	_	_	C17:SUB;head=C16;conj=S118:what
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_	C17
+7	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	SpaceAfter=No	C17
+8	.	.	PUNCT	.	_	4	punct	_	_	C17
+
+# sent_id = 9
+# text = It rains; I will stay at home.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_	C18:MAIN
+2	rains	rain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No	C18
+3	;	;	PUNCT	,	_	6	punct	_	_	C18
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_	C19:MAIN
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_	C19
+6	stay	stay	VERB	VB	VerbForm=Inf	2	parataxis	_	_	C19
+7	at	at	ADP	IN	_	8	case	_	_	C19
+8	home	home	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No	C19
+9	.	.	PUNCT	.	_	2	punct	_	_	C19
+
+# sent_id = 10
+# text = If you have time, come so that we can talk.
+1	If	if	SCONJ	IN	_	3	mark	_	_	C20:SUB;head=C21;conj=S008:if
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_	C20
+3	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	advcl	_	_	C20
+4	time	time	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No	C20
+5	,	,	PUNCT	,	_	3	punct	_	_	C20
+6	come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_	C21:MAIN
+7	so	so	SCONJ	IN	ExtPos=SCONJ	11	mark	_	_	C22:SUB;head=C21;conj=S092:so_that
+8	that	that	SCONJ	IN	_	7	fixed	_	_	C22
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_	C22
+10	can	can	AUX	MD	VerbForm=Fin	11	aux	_	_	C22
+11	talk	talk	VERB	VB	VerbForm=Inf	6	advcl	_	SpaceAfter=No	C22
+12	.	.	PUNCT	.	_	6	punct	_	_	C22
+
+# sent_id = 11
+# text = He knows that she will come, but he does not know when.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_	C23:MAIN
+2	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_	C23
+3	that	that	SCONJ	IN	_	6	mark	_	_	C24:SUB;head=C23;conj=S016:that
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_	C24
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_	C24
+6	come	come	VERB	VB	VerbForm=Inf	2	ccomp	_	SpaceAfter=No	C24
+7	,	,	PUNCT	,	_	12	punct	_	_	C24
+8	but	but	CCONJ	CC	_	12	cc	_	_	C25:COORD;coord=C23;conj=S155:but
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_	C25
+10	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_	C25
+11	not	not	PART	RB	Polarity=Neg	12	advmod	_	_	C25
+12	know	know	VERB	VB	VerbForm=Inf	2	conj	_	_	C25
+13	when	when	ADV	WRB	PronType=Int	12	advmod	_	SpaceAfter=No	C25
+14	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n	C25
+
